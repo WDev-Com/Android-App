@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_reg"
+    android:orientation="vertical"
+    tools:context=".AdminRegistration">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Institute Information"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:hint="Institute Name"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_home_map_marker"
+        android:background="@drawable/ad_round"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_securitypng"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:hint="Institude Code"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ad_round"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="300dp"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/ic_crosshairs_gps"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:hint="Address"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ad_round"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_contacts"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Contact"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ad_round"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_email_open_multiple_outline"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="Email Id"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ad_round"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Admin"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#9DE34C"
+        android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>

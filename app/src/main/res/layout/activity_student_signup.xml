@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backsign"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StudentSignup">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/addusr"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="15"
+        android:textColorHint="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:background="@drawable/studreg"/>
+
+    <EditText
+        android:id="@+id/rollsig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        android:hint="Roll no"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:background="@drawable/studreg"/>
+    <EditText
+        android:id="@+id/passv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:background="@drawable/studreg"/>
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:background="@drawable/studreg"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="141dp"
+        android:layout_height="59dp"
+        android:text="Signup"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:background="#FF00A3FB"
+        android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgallot2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PaymentGenration">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Payment Genration"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No:"
+                android:id="@+id/rollnoa"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Roll no"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/rollnap"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill No:"
+                android:id="@+id/billno"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Bill no"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/billnot"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Title:"
+                android:id="@+id/btitle"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Bill Title"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/bedna"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Amount"
+                android:id="@+id/billam"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:hint="Enter Bill Amount"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/billamt"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Date"
+                android:id="@+id/billda"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Bill Date"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/billdat"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due Date"
+                android:id="@+id/billdue"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Bill Due date"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/billduet"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Status"
+                android:id="@+id/billsta"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Bill Status"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:id="@+id/billstat"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:onClick="subpay"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="Submit payment"
+            android:backgroundTint="#FF1CA1CC"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/upbill"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:onClick="updpay"
+            android:text="Update Bill"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:backgroundTint="#FFFF9E00"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/upbillstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="updStatusbill"
+            android:text="Update bill Status"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:backgroundTint="#FF6D9EF7"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:onClick="delbillone"
+            android:text="Delete one bill"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:backgroundTint="#FFFF77BF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/button19d"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:onClick="delbillmany"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Delete All Bill"
+            android:backgroundTint="#FFEC5211"/>
+
+        <Button
+            android:id="@+id/button20C"
+            android:layout_width="175dp"
+            android:layout_height="55dp"
+            android:onClick="Clear"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Clear"
+            android:backgroundTint="#FFEC5211"/>
+    </LinearLayout>
+
+</LinearLayout>

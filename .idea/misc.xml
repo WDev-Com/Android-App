@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/ad_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/bg_shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/bg_shape2.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/gradbutton.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/ic_add.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/preview_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/round_primary.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/drawable/studreg.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/Admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/Student_Login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_admin_login.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_admin_portal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_admin_registration.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_admin_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_annoucement.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_cricketer_adapter.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_cricketers.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_extra.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_hostel_allotment.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_hostel_database.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_hostel_details.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_lottianimation.xml" value="0.11770833333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_payment_database.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_payment_genration.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_portal_student.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_stud_annoucment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_stud_registration.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_authurazation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_database.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_payment.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_portal.xml" value="0.24682395644283123" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_profile.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_registration.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_student_signup.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_testing.xml" value="0.152" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_update_student_info.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/activity_viewdoc.xml" value="0.20018115942028986" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/adannon.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/addnotice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/admin_portal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/adminchpass.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/adminifo.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/customdelete.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/delnotice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/hosteldata.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/paybillcon.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/paymentview.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/payviewadmin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/row_add_cricketer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/rowofdata.xml" value="0.4" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/rowofviewdatabase.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/staccone.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/studchpass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/student_Login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/student_login.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/student_portal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/layout/updatenotice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/adminac.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/annou.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/hosdmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/menu2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/menu3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/menu4.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/menu/studpay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/mipmap-anydpi-v26/icon_app.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/xml/file_path.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HostelManagement/app/src/main/res/xml/file_paths.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="retrofit2.http.DELETE" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

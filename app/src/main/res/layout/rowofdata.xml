@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="5dp"
+    app:cardBackgroundColor="#ffffe0"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/LineLayouts1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#111666"
+                android:text="Name:-"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/named"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="74dp"
+                android:layout_marginTop="10dp"
+                android:text=" "
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/lineLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LineLayouts1">
+
+            <TextView
+                android:id="@+id/rolln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#111666"
+                android:layout_marginLeft="20dp"
+                android:text="Roll No:-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/rolld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolln"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/adharn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#111666"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignLeft="@+id/rolld"
+                android:text="Aadhar No:-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/adhard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/adharn"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LineLayouts1">
+
+            <TextView
+                android:id="@+id/addren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#111666"
+                android:text="Adress"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/addressd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#111666"
+                android:text=""/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineLayout4"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/lineLayout3"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/phon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#111666"
+                android:layout_marginLeft="20dp"
+                android:text="Phone No:-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/phod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/phon"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/gent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_alignLeft="@+id/phod"
+                android:textColor="#111666"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:text="Gender:-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/genderd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/gent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineLayout5"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/lineLayout4"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/emailt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Email:-"
+                android:textColor="#111666"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/emaild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/emailt"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lineLayout6"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/lineLayout5"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/datet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#111666"
+                android:layout_marginLeft="20dp"
+                android:text="Date:-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/Dated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/datet"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/titlen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hostel Details"
+                android:textColor="#111666"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/roomn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Room No"
+                android:textColor="#111666"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:id="@+id/bedn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:text="Bed No"
+                android:textStyle="bold"
+                android:textColor="#111666"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tabn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Table No"
+                android:textStyle="bold"
+                android:layout_alignLeft="@+id/bedn"
+                android:layout_marginLeft="30dp"
+                android:textColor="#111666"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/roomd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:id="@+id/bedd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:text=""
+                android:textColor="#111666"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tabd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:textColor="#111666"
+                android:textSize="15dp"/>
+
+        </LinearLayout> -->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

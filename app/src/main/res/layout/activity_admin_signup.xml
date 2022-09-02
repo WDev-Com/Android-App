@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AdminSignup"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_reg">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logoadmin"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonNameaa16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/black"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/ad_round"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/codesig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/black"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:hint="Institute Code"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/ad_round"
+            android:padding="12dp"/>
+        <EditText
+            android:id="@+id/adpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="15"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/ad_round"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/copass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="15"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:hint="Confirm Password"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/ad_round"
+            android:padding="12dp"/>
+
+
+
+        <Button
+            android:id="@+id/buttonad"
+            android:layout_width="141dp"
+            android:layout_height="59dp"
+            android:text="Signup"
+            android:backgroundTint="#D1DF4A"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:textColor="#FFFFFFFF"/>
+
+</LinearLayout>

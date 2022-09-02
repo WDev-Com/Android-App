@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgallot"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UpdateStudentInfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textViewu8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Student Information"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@drawable/bg_shape2"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Adharcard No"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Roll No"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="#FF000000"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Email Id"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Gender"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameu13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Contact No"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/editTextDateu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_shape2"
+                android:ems="15"
+                android:hint="Date"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="10dp"/>
+
+
+            <Button
+                android:id="@+id/buttonu3"
+                android:layout_width="158dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="12dp"
+                android:text="Update"
+                android:background="#FF068070"
+                android:layout_marginBottom="20dp"
+                android:textColor="#FFFFFFFF"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

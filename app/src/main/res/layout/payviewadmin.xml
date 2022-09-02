@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    app:cardElevation="10dp"
+    android:layout_marginStart="5dp"
+    android:layout_centerHorizontal="true"
+    app:cardBackgroundColor="#e1f5fe"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/rolltt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll NO:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/roldd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/biln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill No:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/billld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/abilltitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Title:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/abilltitled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/abilamnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Amount:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/abillAmd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+            <TextView
+                android:id="@+id/abilldate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Date:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/abilldated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:id="@+id/aduedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due Date:-"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/adued"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+
+            <TextView
+                android:id="@+id/abillstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Status:-"
+                android:textSize="15dp"
+                android:layout_marginLeft="60dp"
+                android:textStyle="bold"
+                android:textColor="#FF000000"/>
+
+            <TextView
+                android:id="@+id/abillstatusd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=""
+                android:textColor="#FF000000"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

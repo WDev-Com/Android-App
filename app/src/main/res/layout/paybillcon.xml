@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/amounts"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textColorHint="@color/black"
+        android:hint="Amount"
+        android:gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/upis"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textColorHint="@color/black"
+        android:hint="UPI ID"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textColorHint="@color/black"
+        android:hint="Name To Pay"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textColorHint="@color/black"
+        android:hint="Your Name - Roll No - Bill No"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/payupi"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#7EE482"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:text="Pay" />
+</LinearLayout>

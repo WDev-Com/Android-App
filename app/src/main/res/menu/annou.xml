@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/adda"
+        android:title="Add Annoucement"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/upaad"
+        android:title="Update Annoucement"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/rmann"
+        android:title="Remove Annoucement"
+        app:showAsAction="never"
+        />
+</menu>

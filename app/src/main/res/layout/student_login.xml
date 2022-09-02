@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity"
+	android:background="@drawable/bg3">
+
+
+	<TextView
+		android:id="@+id/TextView"
+		android:gravity="center"
+		android:textColor="#FF000000"
+		android:text="Welcome To Hostel Management"
+		android:layout_marginTop="20dp"
+		android:textSize="25dp"
+		android:textAlignment="center"
+		android:textStyle="bold"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginBottom="16dp"
+		android:fontFamily="@font/arial"/>
+
+	<TextView
+		android:layout_marginTop="10dp"
+		android:textColor="#FF000000"
+		android:text="Already registered Student? Please enter your username , roll no. &amp; password"
+		android:textSize="15dp"
+		android:textAlignment="center"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/arial"
+		android:paddingBottom="5dp"
+		android:paddingTop="5dp"
+		android:id="@+id/TextView4"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="15"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:hint="Username"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:textColor="#FF000000"
+		android:inputType="textPersonName"
+		android:id="@+id/editTextTextPersonName"
+		android:padding="10dp"
+		android:background="@drawable/rounded"
+		android:drawableLeft="@drawable/ic_account"
+		android:textColorHint="#FF000000"
+		android:fontFamily="@font/arial"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="15"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:hint="Roll No"
+		android:layout_gravity="center"
+		android:layout_marginTop="25dp"
+		android:textColor="#FF000000"
+		android:inputType="textPersonName"
+		android:id="@+id/rollnum"
+		android:padding="10dp"
+		android:background="@drawable/rounded"
+		android:drawableLeft="@drawable/ic_security"
+		android:textColorHint="#FF000000"
+		android:fontFamily="@font/arial"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="15"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:hint="Password"
+		android:layout_gravity="center"
+		android:layout_marginTop="25dp"
+		android:textColor="#FF000000"
+		android:inputType="textPassword"
+		android:id="@+id/editTextTextPassword"
+		android:padding="10dp"
+		android:layout_marginBottom="10dp"
+		android:background="@drawable/rounded"
+		android:drawableLeft="@drawable/ic_lock_plus"
+		android:textColorHint="#FF000000"
+		android:fontFamily="@font/arial"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Login"
+		android:layout_gravity="center"
+		android:textSize="18dp"
+		android:textColor="#FFFFFFFF"
+		android:paddingLeft="45dp"
+		android:paddingRight="45dp"
+		android:id="@+id/button"
+		android:layout_marginTop="25dp"
+		android:background="@drawable/button_round2"
+		android:fontFamily="@font/arial"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Student Registration"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:id="@+id/textView2"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:layout_marginBottom="10dp"
+		android:textColor="#FF0045FC"
+		android:textSize="15dp"
+		android:textAlignment="center"
+		android:textStyle="bold"
+		android:fontFamily="@font/arial"
+		android:shadowColor="#FFFFFFFF"
+		android:shadowDx="1.0"
+		android:shadowDy="1.0"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Click Here For Admin Activity"
+		android:id="@+id/textView4"
+		android:layout_gravity="center"
+		android:textSize="15dp"
+		android:textColor="#FF000000"
+		android:textStyle="bold"
+		android:layout_marginTop="11dp"/>
+
+</LinearLayout>
+

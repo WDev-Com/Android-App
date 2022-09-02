@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".PortalStudent"
+	android:background="@drawable/bg1">
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="100dp"
+		android:text="Profile"
+		android:layout_marginTop="30dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FFFF8E00"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_ac_st"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button5"
+		android:layout_marginBottom="20dp"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="100dp"
+		android:text="Hostel Details"
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FF13D2D4"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_details"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button6"
+		android:layout_marginBottom="20dp"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="100dp"
+		android:text="Payments"
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FDEB49"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_cash_1"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button7"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+</LinearLayout>
+

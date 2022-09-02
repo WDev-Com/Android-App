@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeforsthsd"
+    tools:context=".HostelDetails">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/textViewd30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hostel Details"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textViewd33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Roll No :"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewd34"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text=""
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textViewd35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Room No:"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewd36"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text=""
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textViewd37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bed No:"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewd38"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text=""
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textViewd39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Table No:"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewd40"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text=""
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

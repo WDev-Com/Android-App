@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".AdminPortal"
+	android:background="@drawable/bg1">
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Student Database"
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="@color/orange"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_database_lock"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button10"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Hostel Allotment"
+		android:layout_marginTop="15dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FF13D2D4"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_hostelallotment"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button11"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Payments Generation"
+		android:layout_marginTop="15dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FDEB49"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_cash_1"
+		android:fontFamily="@font/arial"
+		android:id="@+id/button12"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Hostel Database"
+		android:layout_marginTop="15dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#EDA337"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_database_lock"
+		android:fontFamily="@font/arial"
+		android:id="@+id/hosdt"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Student Payments Database"
+		android:layout_marginTop="15dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FBCE44"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_database_lock"
+		android:fontFamily="@font/arial"
+		android:id="@+id/paydt"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+	<Button
+		android:layout_width="300dp"
+		android:layout_height="80dp"
+		android:text="Hostel Announcement"
+		android:layout_marginTop="15dp"
+		android:layout_gravity="center"
+		android:textStyle="bold"
+		android:textSize="20dp"
+		android:backgroundTint="#FBCE44"
+		android:textColor="@color/black"
+		android:drawableRight="@drawable/ic_database_lock"
+		android:fontFamily="@font/arial"
+		android:id="@+id/anouce"
+		android:textAlignment="center"
+		android:paddingRight="10dp"/>
+
+</LinearLayout>
+

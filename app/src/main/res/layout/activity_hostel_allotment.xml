@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgallot"
+    tools:context=".HostelAllotment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hostel Allotment"
+        android:id="@+id/Title"
+        android:textColor="#FF000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No:"
+                android:id="@+id/rollnoa"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Roll no"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/rollna"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rooms No:"
+                android:id="@+id/rooma"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Room no"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/roomna"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bed No:"
+                android:id="@+id/beda"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:inputType="text"
+                android:hint="Enter Bed no"
+                android:padding="5dp"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/bedna"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Table No:"
+                android:id="@+id/tablea"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Enter Table no"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@drawable/bg_shape"
+                android:id="@+id/tablena"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Submit"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#FF0078FF"
+            android:textColor="#FF000000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Update"
+            android:backgroundTint="#FF40B47E"
+            android:textColor="#FF000000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Delete"
+            android:backgroundTint="#FFEE6B6B"
+            android:textColor="#FF000000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonCC"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="ClearAA"
+            android:text="Clear"
+            android:layout_marginEnd="25dp"
+            android:backgroundTint="#FFEE6B6B"
+            android:textColor="#FF000000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshhd">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hostel Things List"
+                android:id="@+id/hostelTitle"
+                android:textColor="#FF000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Rooms:"
+                        android:id="@+id/room"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/Occupr"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Occupied Rooms:"
+                        android:id="@+id/Occuprd"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/roomc"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="5dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Beds:"
+                        android:id="@+id/bed"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/bedc"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Occupied Beds:"
+                        android:id="@+id/Occupiedbed"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/Occupb"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Tables:"
+                        android:id="@+id/table"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/Occudbedtablec"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Occupiedbed Tables:"
+                        android:id="@+id/Occupiedbedable"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/tablec"
+                        android:textColor="#FF000000"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>
